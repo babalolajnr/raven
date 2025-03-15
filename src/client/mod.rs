@@ -1,3 +1,5 @@
+pub mod smtp;
+
 use std::{
     io::{Read, Write},
     net::TcpStream,
